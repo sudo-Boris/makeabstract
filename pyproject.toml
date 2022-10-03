@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "makeabstract"
+version = "0.1.0"
+description = ""
+authors = ["sudo-Boris <boris.meinardus00@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.6.0"
+pandas = "^1.5.0"
+tqdm = "^4.64.1"
+torch = "^1.12.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
